@@ -144,55 +144,43 @@ const VehicleConsultationSection = memo(() => {
         title: "Consulta de Roubo/Furto",
         info: [
           "Informações Retornadas:",
-          "Situação de roubo/furto",
-          "Data da ocorrência",
-          "Boletim de ocorrência",
-          "Delegacia responsável",
-          "Status da recuperação",
-          "Cidade da ocorrência",
-          "Observações policiais",
-          "Situação atual do registro"
+          "Indicativo de Roubo/Furto",
+          "Situação de Roubo/Furto",
+          "Outras informações adicionais",
         ]
       },
       "sinistro": {
         title: "Consulta de Sinistro",
         info: [
           "Informações Retornadas:",
-          "Histórico de sinistros",
-          "Tipo de sinistro",
-          "Data da ocorrência",
-          "Seguradora envolvida",
-          "Valor da indenização",
-          "Status do sinistro",
-          "Perda total ou parcial",
-          "Observações do sinistro"
+          "Indício de sinistro completo",
         ]
       },
       "comunicacao-venda": {
         title: "Consulta Comunicação de Venda",
         info: [
           "Informações Retornadas:",
-          "Status da comunicação",
-          "Data da comunicação",
-          "Dados do comprador",
-          "Dados do vendedor",
-          "Protocolo de comunicação",
-          "Pendências na transferência",
-          "Prazo para regularização",
-          "Situação junto ao DETRAN"
+          "Data de Venda",
+          "Inclusão",
+          "Status",
+          "Tipo de Comprador",
+          "Documento do Comprador",
+          "Placa",
+          "Procedência",
+          "Outras informações adicionais"
         ]
       },
       "gravame": {
         title: "Consulta de Gravame",
         info: [
           "Informações Retornadas:",
-          "Situação de gravame",
-          "Instituição financeira",
-          "Data da inclusão",
-          "Tipo de financiamento",
-          "Status do contrato",
-          "Valor financiado",
-          "Situação de quitação",
+          "Nome do proprietário atual",
+          "Placa",
+          "Renavam",
+          "Chassi",
+          "Situação",
+          "Data do gravame",
+          "Financeira",
           "Observações do gravame"
         ]
       },
@@ -200,56 +188,60 @@ const VehicleConsultationSection = memo(() => {
         title: "Consulta de Débitos",
         info: [
           "Informações Retornadas:",
-          "Débitos de IPVA",
-          "Taxas de licenciamento",
-          "Seguro obrigatório",
-          "Valores atualizados",
-          "Datas de vencimento",
-          "Juros e multas",
-          "Código de barras",
+          "Licenciamento",
+          "Valor do licenciamento",
+          "IPVA",
+          "Valor de IPVA",
+          "Multas",
+          "Valor das Multas",
+          "DPVAT",
+          "Valor de DPVAT",
           "Opções de parcelamento"
         ]
       },
       "multas": {
         title: "Consulta de Multas",
         info: [
-          "Informações Retornadas:",
-          "Lista de multas pendentes",
-          "Data da infração",
-          "Local da multa",
-          "Valor da multa",
-          "Órgão autuador",
-          "Código da infração",
-          "Prazo para recurso",
-          "Situação do processo"
+         "Informações Retornadas:",
+          "Licenciamento",
+          "Valor do licenciamento",
+          "IPVA",
+          "Valor de IPVA",
+          "Multas",
+          "Valor das Multas",
+          "DPVAT",
+          "Valor de DPVAT",
+          "Opções de parcelamento"
         ]
       },
       "renainf": {
         title: "Consulta de Renainf",
         info: [
           "Informações Retornadas:",
-          "Situação junto ao Renainf",
-          "Restrições administrativas",
-          "Bloqueios judiciais",
-          "Histórico de restrições",
-          "Órgão responsável",
-          "Data da inclusão",
-          "Motivo da restrição",
-          "Procedimentos para regularização"
+          "Total de multas renainf ativas",
+          "Auto da infração",
+          "Local da infração",
+          "Valor do pagamento",
+          "Data do pagamento",
+          "Placa",
+          "Órgão atuadoro",
+          "Marca/Modelo",
+          "Outras informações adicionais"
         ]
       },
       "renajud": {
         title: "Consulta de Renajud",
         info: [
           "Informações Retornadas:",
-          "Situação judicial",
-          "Bloqueios e restrições",
-          "Processo judicial",
-          "Vara responsável",
-          "Data da restrição",
-          "Tipo de bloqueio",
-          "Status do processo",
-          "Orientações legais"
+          "Consta renajud",
+          "Data da inclusão",
+          "Placa",
+          "Chassi",
+          "Ocorrência",
+          "Tipo de restrição judicial",
+          "Órgão Judicial",
+          "Quantidade de ocorrências",
+          "Outras informações adicionais"
         ]
       }
     };
