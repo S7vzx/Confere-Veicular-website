@@ -99,8 +99,6 @@ const VehicleConsultationSection = memo(() => {
         ]
       }
     };
-
-    return consultationInfo[cardId] || consultationInfo["default"];
   };
   // Specific consultation images mapping with new generated images
   const consultationImages: Record<string, string> = {
