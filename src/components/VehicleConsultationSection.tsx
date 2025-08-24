@@ -39,7 +39,7 @@ const VehicleConsultationSection = memo(() => {
           "Renavam", 
           "Chassi",
           "Roubo ou Furto",
-          "Nº do Motor",
+          "Número do Motor",
           "Nome do proprietário",
           "Restrições",
           "Outras informações adicionais"
@@ -52,10 +52,10 @@ const VehicleConsultationSection = memo(() => {
           "Placa",
           "Renavam",
           "Ano de fabricação",
-          "Situação do veículo", 
           "Outras informações adicionais",
-          "Número do Moto",
-          "Roubo ou Furto"
+          "Número do Motor",
+          "Roubo ou Furto",
+          "Restrições"
         ]
       },
       "renavam": {
@@ -66,9 +66,8 @@ const VehicleConsultationSection = memo(() => {
           "Placa",
           "Chassi",
           "Dados do proprietário",
-          "Situação do documento",
-          "Restrições judiciais",
-          "Multas pendentes",
+          "Roubo ou Furto",
+          "Nº do Motor",
           "Outras informações adicionais"
         ]
       },
@@ -105,10 +104,10 @@ const VehicleConsultationSection = memo(() => {
           "Nome completo do proprietário",
           "CPF/CNPJ",
           "Endereço atualizado",
-          "Data da última transferência",
-          "Situação cadastral",
-          "Débitos em nome do proprietário",
-          "Histórico de propriedade",
+          "Nome da mãe",
+          "Probabilidade de óbito",
+          "Telefones",
+          "Data de nascimento",
           "Outras informações do proprietário"
         ]
       },
@@ -116,28 +115,29 @@ const VehicleConsultationSection = memo(() => {
         title: "Histórico de Proprietário",
         info: [
           "Informações Retornadas:",
-          "Lista completa de proprietários",
-          "Datas das transferências",
-          "Origem das transferências",
-          "Tipo de transferência",
-          "Municípios de registro",
-          "Período de propriedade",
-          "Situação de cada transferência",
-          "Cronologia detalhada"
+          "Nome do proprietário atual",
+          "Nome dos últimos proprietários",
+          "Placa",
+          "Renavam",
+          "Chassi",
+          "Marca/Modelo",
+          "Cor",
+          "Município",
+          "Outras informações adicionais"
         ]
       },
       "leilao": {
         title: "Consulta de Leilão",
         info: [
           "Informações Retornadas:",
-          "Situação de leilão",
-          "Origem do leilão",
+          "Score",
+          "Lote",
+          "Comitente",
+          "Aceitação de seguro",
+          "Percentual sobre a tabela de referência",
+          "Necessidade de vistoria especial",
           "Data do leilão",
-          "Empresa leiloeira",
-          "Valor de avaliação",
-          "Status do processo",
-          "Observações do leilão",
-          "Histórico de leilões"
+          "Outras informações adicionais"
         ]
       },
       "roubo-furto": {
