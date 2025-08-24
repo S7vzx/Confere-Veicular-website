@@ -46,7 +46,7 @@ const HeroSection = memo(() => {
     {
       icon: Shield,
       number: "50 mil",
-      text: "de consultas veiculares já realizadas"
+      text: "consultas veiculares já realizadas"
     },
     {
       icon: Users,
