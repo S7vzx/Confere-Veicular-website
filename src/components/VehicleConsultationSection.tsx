@@ -49,14 +49,13 @@ const VehicleConsultationSection = memo(() => {
         title: "Consulta de Chassi",
         info: [
           "Informações Retornadas:",
-          "Chassi",
           "Placa",
           "Renavam",
-          "Modelo e Marca",
           "Ano de fabricação",
-          "Situação do veículo",
-          "Histórico de proprietários",
-          "Outras informações adicionais"
+          "Situação do veículo", 
+          "Outras informações adicionais",
+          "Número do Moto",
+          "Roubo ou Furto"
         ]
       },
       "renavam": {
