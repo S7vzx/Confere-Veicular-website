@@ -97,6 +97,160 @@ const VehicleConsultationSection = memo(() => {
           "Marca/modelo/versão",
           "Outras informações relevantes",
         ]
+      },
+       "proprietario-atual": {
+        title: "Consulta Proprietário Atual",
+        info: [
+          "Informações Retornadas:",
+          "Nome completo do proprietário",
+          "CPF/CNPJ",
+          "Endereço atualizado",
+          "Data da última transferência",
+          "Situação cadastral",
+          "Débitos em nome do proprietário",
+          "Histórico de propriedade",
+          "Outras informações do proprietário"
+        ]
+      },
+      "historico-proprietario": {
+        title: "Histórico de Proprietário",
+        info: [
+          "Informações Retornadas:",
+          "Lista completa de proprietários",
+          "Datas das transferências",
+          "Origem das transferências",
+          "Tipo de transferência",
+          "Municípios de registro",
+          "Período de propriedade",
+          "Situação de cada transferência",
+          "Cronologia detalhada"
+        ]
+      },
+      "leilao": {
+        title: "Consulta de Leilão",
+        info: [
+          "Informações Retornadas:",
+          "Situação de leilão",
+          "Origem do leilão",
+          "Data do leilão",
+          "Empresa leiloeira",
+          "Valor de avaliação",
+          "Status do processo",
+          "Observações do leilão",
+          "Histórico de leilões"
+        ]
+      },
+      "roubo-furto": {
+        title: "Consulta de Roubo/Furto",
+        info: [
+          "Informações Retornadas:",
+          "Situação de roubo/furto",
+          "Data da ocorrência",
+          "Boletim de ocorrência",
+          "Delegacia responsável",
+          "Status da recuperação",
+          "Cidade da ocorrência",
+          "Observações policiais",
+          "Situação atual do registro"
+        ]
+      },
+      "sinistro": {
+        title: "Consulta de Sinistro",
+        info: [
+          "Informações Retornadas:",
+          "Histórico de sinistros",
+          "Tipo de sinistro",
+          "Data da ocorrência",
+          "Seguradora envolvida",
+          "Valor da indenização",
+          "Status do sinistro",
+          "Perda total ou parcial",
+          "Observações do sinistro"
+        ]
+      },
+      "comunicacao-venda": {
+        title: "Consulta Comunicação de Venda",
+        info: [
+          "Informações Retornadas:",
+          "Status da comunicação",
+          "Data da comunicação",
+          "Dados do comprador",
+          "Dados do vendedor",
+          "Protocolo de comunicação",
+          "Pendências na transferência",
+          "Prazo para regularização",
+          "Situação junto ao DETRAN"
+        ]
+      },
+      "gravame": {
+        title: "Consulta de Gravame",
+        info: [
+          "Informações Retornadas:",
+          "Situação de gravame",
+          "Instituição financeira",
+          "Data da inclusão",
+          "Tipo de financiamento",
+          "Status do contrato",
+          "Valor financiado",
+          "Situação de quitação",
+          "Observações do gravame"
+        ]
+      },
+      "debitos": {
+        title: "Consulta de Débitos",
+        info: [
+          "Informações Retornadas:",
+          "Débitos de IPVA",
+          "Taxas de licenciamento",
+          "Seguro obrigatório",
+          "Valores atualizados",
+          "Datas de vencimento",
+          "Juros e multas",
+          "Código de barras",
+          "Opções de parcelamento"
+        ]
+      },
+      "multas": {
+        title: "Consulta de Multas",
+        info: [
+          "Informações Retornadas:",
+          "Lista de multas pendentes",
+          "Data da infração",
+          "Local da multa",
+          "Valor da multa",
+          "Órgão autuador",
+          "Código da infração",
+          "Prazo para recurso",
+          "Situação do processo"
+        ]
+      },
+      "renainf": {
+        title: "Consulta de Renainf",
+        info: [
+          "Informações Retornadas:",
+          "Situação junto ao Renainf",
+          "Restrições administrativas",
+          "Bloqueios judiciais",
+          "Histórico de restrições",
+          "Órgão responsável",
+          "Data da inclusão",
+          "Motivo da restrição",
+          "Procedimentos para regularização"
+        ]
+      },
+      "renajud": {
+        title: "Consulta de Renajud",
+        info: [
+          "Informações Retornadas:",
+          "Situação judicial",
+          "Bloqueios e restrições",
+          "Processo judicial",
+          "Vara responsável",
+          "Data da restrição",
+          "Tipo de bloqueio",
+          "Status do processo",
+          "Orientações legais"
+        ]
       }
     };
     return consultationInfo[cardId] || {
