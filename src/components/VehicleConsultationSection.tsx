@@ -86,6 +86,20 @@ const VehicleConsultationSection = memo(() => {
           "Dados atualizados"
         ]
       }
+      },
+      "emitir-crv": {
+        title: "Consulta Veicular",
+        info: [
+          "Informações Retornadas:",
+          "Número de segurança do CRV",
+          "Placa",
+          "Renavam",
+          "Ano de fabricação",
+          "Ano de modelo",
+          "Marca/modelo/versão",
+          "Outras informações relevantes",
+        ]
+      }
     };
 
     return consultationInfo[cardId] || consultationInfo["default"];
