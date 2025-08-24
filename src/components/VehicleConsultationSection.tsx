@@ -72,26 +72,24 @@ const VehicleConsultationSection = memo(() => {
           "Outras informações adicionais"
         ]
       },
-      "default": {
-        title: "Consulta Veicular",
-        info: [
-          "Informações Retornadas:",
-          "Dados básicos do veículo",
-          "Situação documental",
-          "Histórico de proprietários",
-          "Restrições e gravames",
-          "Multas e débitos",
-          "Situação junto aos órgãos",
-          "Outras informações relevantes",
-          "Dados atualizados"
-        ]
-      }
-      },
       "emitir-crv": {
         title: "Consulta Veicular",
         info: [
           "Informações Retornadas:",
           "Número de segurança do CRV",
+          "Placa",
+          "Renavam",
+          "Ano de fabricação",
+          "Ano de modelo",
+          "Marca/modelo/versão",
+          "Outras informações relevantes",
+        ]
+       },
+      "emitir-crlv": {
+        title: "Consulta Veicular",
+        info: [
+          "Informações Retornadas:",
+          "Número de segurança do CRLV",
           "Placa",
           "Renavam",
           "Ano de fabricação",
