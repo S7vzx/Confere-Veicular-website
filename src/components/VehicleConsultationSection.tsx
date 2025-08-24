@@ -72,7 +72,7 @@ const VehicleConsultationSection = memo(() => {
           "Outras informações adicionais"
         ]
       },
-      "default": {
+      "renajud": {
         title: "Consulta Veicular",
         info: [
           "Informações Retornadas:",
