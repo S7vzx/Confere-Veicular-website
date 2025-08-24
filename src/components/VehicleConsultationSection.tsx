@@ -99,6 +99,13 @@ const VehicleConsultationSection = memo(() => {
         ]
       }
     };
+    return consultationInfo[cardId] || {
+  title: "Consulta não encontrada",
+  info: [
+    "Tipo de consulta não identificado.",
+    "Entre em contato para mais informações."
+  ]
+    };
   };
   // Specific consultation images mapping with new generated images
   const consultationImages: Record<string, string> = {
