@@ -145,7 +145,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <img 
-                  src="/lovable-uploads/2c040f00-0fcd-4f10-9011-87b89ecb3183.png" 
+                  src="/lovable-uploads/logo nova.png" 
                   alt="ConfereVeicular"
                   className="h-12 w-auto"
                 />
